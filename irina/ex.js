@@ -37,4 +37,6 @@ console.log(result);  //[ 'Bleda', 'Jenna' ]
 //OR
 namesArr.sort((a, b) => a.length - b.length);
 console.log(namesArr); // [ 'Ale', 'Fran', 'Hadi', 'Leon', 'Bleda', 'Jenna' ]
-
+//OR
+namesArr.sort( (a, b) => a > b ? 1 : -1); 
+console.log(namesArr); //[ 'Ale', 'Bleda', 'Fran', 'Hadi', 'Jenna', 'Leon' ]
